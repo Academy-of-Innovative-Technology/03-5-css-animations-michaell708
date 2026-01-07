@@ -1,0 +1,62 @@
+@keyframes animone {
+   from {
+      transform: translateX(0);
+   } 
+   50% {
+      transform:scale(2)
+      translateX(50);
+   }
+   to {
+    transform: translateX(100);
+   }
+}
+
+.animone {
+   animation: animone;
+   animation-duration: 2s;
+}
+
+
+
+/*
+
+@keyframes animtwo {
+   from {
+         transform: translateY(0);
+   } 
+ 50% {
+   transform:  scale(5)
+    translateY(50);
+ }
+   to {
+transform: scale(10)
+     translateY(100);
+   }
+}
+
+.animtwo {
+   animation: animtwo;
+   animation-duration: 10s;
+};
+
+@keyframes animthree {
+   from {
+         transform: translateX(0);
+   } 
+ 50% {
+   transform:  scale(10000)
+    translateX(50);
+ }
+   to {
+    transform: scale(1)
+    translateX(100);
+   }
+}
+
+.animthree {
+   animation: animthree;
+   animation-delay: 3s;
+   animation-duration: 2s;
+};
+
+*/
