@@ -4,10 +4,10 @@
    } 
    50% {
       transform:scale(2)
-      translateX(50);
+      translateX(50px);
    }
    to {
-    transform: translateX(100);
+    transform: translateX(100px);
    }
 }
 
@@ -18,7 +18,7 @@
 
 
 
-/*
+
 
 @keyframes animtwo {
    from {
@@ -26,11 +26,11 @@
    } 
  50% {
    transform:  scale(5)
-    translateY(50);
+    translateY(50px);
  }
    to {
 transform: scale(10)
-     translateY(100);
+     translateY(100px);
    }
 }
 
@@ -42,14 +42,14 @@ transform: scale(10)
 @keyframes animthree {
    from {
          transform: translateX(0);
-   } 
+   }
  50% {
-   transform:  scale(10000)
-    translateX(50);
+   transform:  scale(10)
+    translateX(50px);
  }
    to {
     transform: scale(1)
-    translateX(100);
+    translateX(100px);
    }
 }
 
@@ -59,4 +59,3 @@ transform: scale(10)
    animation-duration: 2s;
 };
 
-*/
